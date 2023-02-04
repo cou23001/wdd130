@@ -1,0 +1,24 @@
+
+
+#circles {
+    text-align: center;
+}
+#circle-logo {
+    width: 92%;
+    vertical-align: top;
+}
+#back-logos {
+    background-color: gray;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 92%;
+}
+#logos {
+    border-radius: 100%;
+    padding: 10px;
+    background-color: black;
+    width: 15%;
+    margin-left: 70px;
+}
