@@ -21,6 +21,7 @@ nav a {
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
+    text-decoration: none;
 }
 footer {
     background-color: #6f7364;
@@ -118,4 +119,7 @@ footer .social img {
 } 
 #logo_link {
     padding-top: 5px;
-}          
+}
+#content {
+    max-width: 1600px;
+}    
