@@ -101,11 +101,23 @@ footer .social img {
     color: rgb(196, 193, 193);
     margin-top: 10px;
 }
+.faq-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: rgb(196, 193, 193);
+    margin-top: 40px;
+}
 .home-grid {
     /*display: grid;
     grid-template-columns: repeat(10, 1fr)*/
     display: grid;
     grid-auto-columns: 1fr;
+}
+.faq-grid {
+    /*display: grid;
+    grid-template-columns: repeat(10, 1fr)*/
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .logo {
     width: 80px;
@@ -149,7 +161,41 @@ footer .social img {
 }
 .card-img, .mountains {
     width: 100%;
-}            
+}
+.title-card {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.quest-card {
+    text-align: left;
+    padding-left: 60px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.grid-container {
+    display: grid;
+    /*grid-template-columns: auto;*/
+    /*background-color: #2196F3;*/
+    grid-template-columns: repeat(1, auto);
+    padding: 5px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 17px;
+    text-align: left;
+}
+.grid-item-a {
+    background-color: rgb(215, 215, 215);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+}        
 
 #hero {
     display: grid;
@@ -169,8 +215,29 @@ footer .social img {
 #hero-msg h4 {
     color: white;
 }
+#faq-msg h4 {
+    color: white;
+}
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+#faq-msg h1, #faq-msg h4 {
+    text-align: center;
+}
+#faq {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -100px;
+}
+#faq-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+#faq-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 #background {
     height: 625px;
@@ -181,7 +248,10 @@ footer .social img {
 }
 #hero-img {
     width: 100%;
-} 
+}
+#faq-img {
+    width: 100%;
+}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -190,7 +260,6 @@ footer .social img {
 #content {
     max-width: 1600px;
 }
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
