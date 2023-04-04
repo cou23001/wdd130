@@ -104,7 +104,7 @@ footer .social img {
 }
 #hero-img {
     border-radius: 30px;
-    opacity: 9999px;
+    opacity: 0.1;
     background-color: rgb(217 244 255);
     max-width: 90%;
     height: auto;
