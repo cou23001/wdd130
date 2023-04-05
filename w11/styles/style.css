@@ -102,13 +102,6 @@ footer .social img {
     margin-right: 100px;
     margin-top: 50px;
 }
-#hero-img {
-    border-radius: 30px;
-    opacity: 0.1;
-    background-color: rgb(217 244 255);
-    max-width: 90%;
-    height: auto;
-}
 .book, .join {
     background-color: #4b92c5;
     color: black;

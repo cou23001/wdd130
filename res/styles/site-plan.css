@@ -35,10 +35,10 @@ body {
   font-size: 18px;
   text-align: center;
 }
-
 img {
   display: block;
   margin: 0 auto;
+  width: 50%;
 }
 img.home {
   border: 1px solid #ddd;
@@ -83,11 +83,10 @@ nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
-  font-size: 1.2em;
-}
-nav  {
+  font-size: 1em;
   list-style-type: none;
   display: flex;
+  font-family: var(--paragraph-font);
 
 }
 nav a {
@@ -105,8 +104,6 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
-
 .colors {
   width: 100%;
   min-width: 350px;
@@ -164,21 +161,20 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-
 .top {
   grid-area: top;
   border-left: 1px solid;
 }
-
 .left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
 }
-
 .right {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
 }
-
+.logo {
+  max-width: 10%;
+}
