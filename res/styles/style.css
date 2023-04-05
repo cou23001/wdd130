@@ -191,7 +191,7 @@ footer .social img {
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 10px;
     font-family: var(--paragraph-font);
 }
